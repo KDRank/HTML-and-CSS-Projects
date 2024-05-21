@@ -1,0 +1,10 @@
+/* Here is my CSS style class! */
+.MyStyle {
+	background-color: DarkSlateGray;
+	color: LightBlue;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: medium;
+	text_align: center;
+	text-shadow: 2px 2px #ff0000;
+}

@@ -1,0 +1,10 @@
+blockquote {color: rgb(170, 66, 245)}
+h2 {color:red;}
+footer {
+	color: green;
+	text-align: right;
+}
+p {
+	color: purple;
+	text-align: center;
+}

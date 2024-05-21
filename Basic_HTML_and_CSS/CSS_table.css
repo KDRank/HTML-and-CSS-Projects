@@ -1,0 +1,18 @@
+table {
+	border: 10px solid purple;
+}
+
+td:hover {
+	background-color: firebrick;
+	color: snow;
+}
+
+tr, th {
+	background-color: black;
+	color: green;
+}
+
+tr, td {
+	background-color: darkblue;
+	color: hotpink;
+}

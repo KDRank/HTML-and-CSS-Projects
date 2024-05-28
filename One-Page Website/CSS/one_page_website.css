@@ -172,7 +172,7 @@ section {
     font-family: monospace;
     line-height: 2;
     font-weight: 900;
-    border: 5px double #fff;
+    border: 5px double #dfd2d2;
     padding: 10px;
 }
 
@@ -187,7 +187,7 @@ section {
     font-size: 18px;
     font-weight: 900;
     padding: 5px 20px 20px 20px;
-    border: 1px dotted #fff;
+    border: 1px dotted #dfd2d2;
     padding: 5px;
 }
 
@@ -255,7 +255,7 @@ section {
     color: #8d8e8f;
     padding: 12px 12px;
     width: 70%;
-    border: 1px solid #808080;
+    border: 1px solid #565656;
     margin: 2% auto;
     border-radius: 9px;
     background: rgb(227, 222, 222);
@@ -270,10 +270,10 @@ section {
     color: #8d8e8f;
     padding: 2% 1% 2% 7%;
     width: 80%;
-    border-top: 2px solid #090B0D;
-    border-right: 4px solid #424549;
-    border-bottom: 4px solid #424549;
-    border-left: 2px solid #090B0D;
+    border-top: 2px double #08090a;
+    border-right: 4px dashed #424549;
+    border-bottom: 4px dashed #424549;
+    border-left: 2px double #08090a;
     margin: 10px 1em;
     border-radius: 10px;
     background: #13161b;
@@ -312,7 +312,7 @@ section {
 .submit input[type="submit"] {
     color: rgb(255, 255, 255);
     cursor: pointer;
-    border: none;
+    border: sandybrown;
     font-weight: 900;
     outline: none;
     text-align: center;

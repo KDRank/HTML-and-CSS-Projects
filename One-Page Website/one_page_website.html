@@ -3,13 +3,15 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Camp Crystal Lake | Resort</title>
+		<link rel="stylesheet" href="./css/one_page_website.css">
+		<link rel="stylesheet" href="./css/one_page_animations.css">
 	</head>
 	<body>
 
 	<!-- NAV -->
-	<div>
-		<div>
-			<ul>
+	<div class="wrap">
+		<div class="menu-container">
+			<ul class="menu">
 				<a href="#home" id="link"><li>HOME</li></a>
 				<a href="#gallery" id="link"><li>GALLERY</li></a>
 				<a href="#contact" id="link"><li>RESERVATIONS</li></a>
@@ -20,25 +22,25 @@
 
 	<!-- HOME -->
 	<div id="home">
-		<div>
-			<div>
-				<span>Camp Crystal Lake</span>
+		<div class="container">
+			<div class="text-center">
+				<span class="head-main">Camp Crystal Lake</span>
 			</div>
 		</div>
 	</div>
 	<!-- END HOME -->
 
 	<!-- GALLERY -->
-	<section>
-		<div id="gallery">
+	<section id="gallery">
+		<div class="container">
 			<h1>Gallery</h1>
-			<div>
+			<div class="flex-container">
 
 				<!-- PHOTO CONTAINER 1 -->
-				<div>
-					<div>
+				<div class="photo-container">
+					<div class="photo">
 						<img src="./images/thumb/thumbnail_1.png" alt="Welcome to Camp Crystal Lake">
-						<div>
+						<div class="photo-overlay">
 							<h3>Click to Enlarge</h3>
 							<p>We have several cabins available daily, book your experience today!
 						</div>
@@ -47,10 +49,10 @@
 				<!-- END PHOTO CONTAINER 1 -->
 
 				<!-- PHOTO CONTAINER 2 -->
-				<div>
-					<div>
+				<div class="photo-container">
+					<div class="photo">
 						<img src="./images/thumb/thumbnail_2.png" alt="Crystal Lake Cabins">
-						<div>
+						<div class="photo-overlay">
 							<h3>Click to Enlarge</h3>
 							<p>We have several cabins available daily, book your experience today!
 						</div>
@@ -59,10 +61,10 @@
 				<!-- END PHOTO CONTAINER 2 -->
 				
 				<!-- PHOTO CONTAINER 3 -->
-				<div>
-					<div>
+				<div class="photo-container">
+					<div class="photo">
 						<img src="./images/thumb/thumbnail_3.png" alt="Crystal Lake with Canoe">
-						<div>
+						<div class="photo-overlay">
 							<h3>Click to Enlarge</h3>
 							<p>We have several cabins available daily, book your experience today!
 						</div>
@@ -71,10 +73,10 @@
 				<!-- END PHOTO CONTAINER 3 -->
 				
 				<!-- PHOTO CONTAINER 4 -->
-				<div>
-					<div>
+				<div class="photo-container">
+					<div class="photo">
 						<img src="./images/thumb/thumbnail_4.png" alt="Crystal Lake View">
-						<div>
+						<div class="photo-overlay">
 							<h3>Click to Enlarge</h3>
 							<p>We have several cabins available daily, book your experience today!
 						</div>
@@ -83,10 +85,10 @@
 				<!-- END PHOTO CONTAINER 4 -->
 
 				<!-- PHOTO CONTAINER 5 -->
-				<div>
-					<div>
+				<div class="photo-container">
+					<div class="photo">
 						<img src="./images/thumb/thumbnail_5.png" alt="Camp Tent with Bonfire">
-						<div>
+						<div class="photo-overlay">
 							<h3>Click to Enlarge</h3>
 							<p>We have several cabins available daily, book your experience today!
 						</div>
@@ -95,10 +97,10 @@
 				<!-- END PHOTO CONTAINER 5 -->
 
 				<!-- PHOTO CONTAINER 6 -->
-				<div>
-					<div>
+				<div class="photo-container">
+					<div class="photo">
 						<img src="./images/thumb/thumbnail_6.png" alt="Crystal Lake Main Cabin">
-						<div>
+						<div class="photo-overlay">
 							<h3>Click to Enlarge</h3>
 							<p>We have several cabins available daily, book your experience today!
 						</div>
@@ -107,10 +109,10 @@
 				<!-- END PHOTO CONTAINER 6 -->
 
 				<!-- PHOTO CONTAINER 7 -->
-				<div>
-					<div>
+				<div class="photo-container">
+					<div class="photo">
 						<img src="./images/thumb/thumbnail_7.png" alt="Crystal Lake Corral">
-						<div>
+						<div class="photo-overlay">
 							<h3>Click to Enlarge</h3>
 							<p>We have several cabins available daily, book your experience today!
 						</div>
@@ -119,10 +121,10 @@
 				<!-- END PHOTO CONTAINER 7 -->
 				
 				<!-- PHOTO CONTAINER 8 -->
-				<div>
-					<div>
+				<div class="photo-container">
+					<div class="photo">
 						<img src="./images/thumb/thumbnail_8.png" alt="Camp Crystal Lake Art">
-						<div>
+						<div class="photo-overlay">
 							<h3>Click to Enlarge</h3>
 							<p>We have several cabins available daily, book your experience today!
 						</div>
@@ -131,10 +133,10 @@
 				<!-- END PHOTO CONTAINER 8 -->
 
 				<!-- PHOTO CONTAINER 9 -->
-				<div>
-					<div>
+				<div class="photo-container">
+					<div class="photo">
 						<img src="./images/thumb/thumbnail_9.png" alt="Welcome to Camp Crystal Lake Art">
-						<div>
+						<div class="photo-overlay">
 							<h3>Click to Enlarge</h3>
 							<p>We have several cabins available daily, book your experience today!
 						</div>
@@ -148,18 +150,19 @@
 	<!-- END GALLERY -->
 
 	<!-- RSVP -->
-	<section>
-		<div id="contact">
-			<div>
-				<h1>Reservations</h1>
-				<div>
-					<h2><span>You adventure is just across the lake.</span>
-						<br />Reserve your cabin today!
+	<section id="contact">
+		<div class="container">
+			<div class="heading-padding">
+				<h1 class="heading-padding">Reservations</h1>
+				<div class ="reservation">
+					<h2>
+						<span>You adventure is just across the lake.</span>
+						<br>Reserve your cabin today!
 					</h2>
-					<p>
+					<p class="rsvp-text">
 						Please provide us with your basic contact information
 					</p>
-					<div>
+					<div class="form-rsvp">
 						<form action="" method="post">
 							<input class="rsvp" type="text" value="First Name">
 							<input class="rsvp" type="text" value="Last Name">
@@ -168,7 +171,7 @@
 							<div class="form-spacer">
 								<label class="terms">Terms and Conditions</label>
 							</div>
-							<div>
+							<div class="submit">
 								<input type="submit" value="Submit">
 							</div>
 						</form>
@@ -180,8 +183,8 @@
 	<!-- END RSVP -->
 	
 	<!-- WELCOME TRAILER -->
-
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/sAzkW7HFh5U?si=XV-X0IQW1MydHIuX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	<br>
+	<p align="center"><iframe  width="560" height="315" src="https://www.youtube.com/embed/sAzkW7HFh5U?si=XV-X0IQW1MydHIuX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
 	<!-- END WELCOME TRAILER -->
 
 	<!-- FOOTER -->

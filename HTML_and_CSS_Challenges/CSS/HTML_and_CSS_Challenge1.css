@@ -1,0 +1,156 @@
+/*--------------------------------
+        IMAGE EFFECTS
+--------------------------------*/
+
+img {
+    display: block;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    filter:blur(5px);
+    border: 10px solid red;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: rgb(5, 248, 13);
+}
+.container:hover .overlay {
+    opacity:2;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100;
+    width: 100;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #c30707;
+}
+
+.centered {
+    font-size: large;
+    font-variant: small-caps;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*--------------------------------
+        FOOTER
+--------------------------------*/
+
+footer {
+    text-align: center;
+    font-weight: bold;
+}
+
+/*--------------------------------
+        TABLE EFFECTS
+--------------------------------*/
+
+table, th, td {
+    border: 2px solid;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+th {
+    background-color: aquamarine;
+}
+
+/*--------------------------------
+        FIXED NAV
+--------------------------------*/
+
+.navbar {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+/*--------------------------------
+        COLUMNS
+--------------------------------*/
+
+.column {
+    font-family: 'Courier New', Courier, monospace;
+    align: center;
+    color: darkblue;
+    float: left;
+    height: 200px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+p:hover {
+    background-color: yellow;
+}
+
+/*--------------------------------
+       VIDEO EFFECTS
+--------------------------------*/
+
+video {
+    display: block;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.autoplay {
+    position: relative;
+    text-align: center;
+    color: rgb(2, 4, 2);
+}
+
+.overtext {
+    font-size: large;
+    font-variant: small-caps;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

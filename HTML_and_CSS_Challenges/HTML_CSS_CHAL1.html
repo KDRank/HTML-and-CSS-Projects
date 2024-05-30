@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<title></title>
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="./CSS/HTML_and_CSS_Challenge1.css">
+	</head>
+	<body>
+        <!--Fixed Menu-->
+    <div class="navbar">
+        <a href="#home" id="link">Home</a>
+        <a href="#news" id="link">Muppets</a>
+        <a href="#contact" id="link">Contact</a>
+    </div>
+
+    <!--Header and Image Overlay-->
+
+    <div id="home">
+        <div class="container">
+            <img src="./Images/RizzoTheRat.png" alt="Rizzo" class="image">
+            <div class="overlay"></div>
+                <div class="centered">Hello, Muppets!</div>
+            </div>
+        </div>
+    </div>
+
+    <!--Table-->
+        <div id="news">
+            <table>
+                <tr>
+                  <th>Muppet</th>
+                  <th>Traits</th>
+                  <th>Origin</th>
+                </tr>
+                <tr>
+                  <td>Pepe the Prawn</td>
+                  <td>Chef</td>
+                  <td>Málaga, Spain</td>
+                </tr>
+                <tr>
+                  <td>Rizzo the Rat</td>
+                  <td>Sly, wisecracking Brooklyn rat</td>
+                  <td>Brooklyn, NY</td>
+                </tr>
+                <tr>
+                    <td>Sam the Eagle</td>
+                    <td>Patriotic</td>
+                    <td>America</td>
+                  </tr>
+                  <tr>
+                    <td>Sweetums</td>
+                    <td>Large, hairy ogre</td>
+                    <td>Muppetland</td>
+                  </tr>
+              </table>
+        </div>
+
+<!--Columns-->
+
+        <div class="row">
+            <div class="column">
+                <h2>The Muppet Christmas Carol</h2>
+                <p>The Muppets perform the classic Dickens holiday tale, with Kermit the Frog playing Bob Cratchit, the put-upon clerk of stingy Ebenezer Scrooge</p>
+            </div>
+            <div class="column">
+                <h2>Muppet Treasure Island</h2>
+                <p>A reworking of Robert Louis Stevenson's classic tale in which the Muppets take to the high seas in search of buried treasure.</p>
+            </div>
+        </div>
+
+<!--Video-->
+<div class="autoplay">
+    <video autoplay muted loop><source src="./cat.mp4" type="video/mp4"></video>
+    <div class="overlay2">
+        <div class="overtext">Kitty!</div>
+    </div>
+</div>
+
+    <!--Footer-->
+        <div id="contact">
+            <footer>
+                <p>Author: Pepe The Prawn</p>
+                <p><a href="mailto:pepetheprawn@example.com">pepe@muppets.com</a></p>
+          </footer>
+        </div>
+
+	</body>
+</html>

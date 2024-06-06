@@ -39,8 +39,8 @@
 				<!-- PHOTO CONTAINER 1 -->
 				<div class="photo-container">
 					<div class="photo">
-						<img src="./images/thumb/thumbnail_1.png" alt="Welcome to Camp Crystal Lake">
-						<div class="photo-overlay">
+						<img src="./images/thumb/thumbnail_1.png" class="hover-shadow" alt="Welcome to Camp Crystal Lake">
+						<div class="photo-overlay" onclick="openModal(); currentSlide(1)">
 							<h3>Click to Enlarge</h3>
 							<p>We have several cabins available daily, book your experience today!
 						</div>
@@ -51,8 +51,8 @@
 				<!-- PHOTO CONTAINER 2 -->
 				<div class="photo-container">
 					<div class="photo">
-						<img src="./images/thumb/thumbnail_2.png" alt="Crystal Lake Cabins">
-						<div class="photo-overlay">
+						<img src="./images/thumb/thumbnail_2.png" class="hover-shadow" alt="Crystal Lake Cabins">
+						<div class="photo-overlay" onclick="openModal(); currentSlide(2)">
 							<h3>Click to Enlarge</h3>
 							<p>We have several cabins available daily, book your experience today!
 						</div>
@@ -63,8 +63,8 @@
 				<!-- PHOTO CONTAINER 3 -->
 				<div class="photo-container">
 					<div class="photo">
-						<img src="./images/thumb/thumbnail_3.png" alt="Crystal Lake with Canoe">
-						<div class="photo-overlay">
+						<img src="./images/thumb/thumbnail_3.jpeg" class="hover-shadow" alt="Crystal Lake with Canoe">
+						<div class="photo-overlay" onclick="openModal(); currentSlide(3)">
 							<h3>Click to Enlarge</h3>
 							<p>We have several cabins available daily, book your experience today!
 						</div>
@@ -75,8 +75,8 @@
 				<!-- PHOTO CONTAINER 4 -->
 				<div class="photo-container">
 					<div class="photo">
-						<img src="./images/thumb/thumbnail_4.png" alt="Crystal Lake View">
-						<div class="photo-overlay">
+						<img src="./images/thumb/thumbnail_4.jpeg" class="hover-shadow" alt="Crystal Lake View">
+						<div class="photo-overlay" onclick="openModal(); currentSlide(4)">
 							<h3>Click to Enlarge</h3>
 							<p>We have several cabins available daily, book your experience today!
 						</div>
@@ -87,8 +87,8 @@
 				<!-- PHOTO CONTAINER 5 -->
 				<div class="photo-container">
 					<div class="photo">
-						<img src="./images/thumb/thumbnail_5.png" alt="Camp Tent with Bonfire">
-						<div class="photo-overlay">
+						<img src="./images/thumb/thumbnail_5.jpeg" class="hover-shadow" alt="Camp Tent with Bonfire">
+						<div class="photo-overlay" onclick="openModal(); currentSlide(5)">
 							<h3>Click to Enlarge</h3>
 							<p>We have several cabins available daily, book your experience today!
 						</div>
@@ -99,8 +99,8 @@
 				<!-- PHOTO CONTAINER 6 -->
 				<div class="photo-container">
 					<div class="photo">
-						<img src="./images/thumb/thumbnail_6.png" alt="Crystal Lake Main Cabin">
-						<div class="photo-overlay">
+						<img src="./images/thumb/thumbnail_6.jpeg" class="hover-shadow" alt="Crystal Lake Main Cabin">
+						<div class="photo-overlay" onclick="openModal(); currentSlide(6)">
 							<h3>Click to Enlarge</h3>
 							<p>We have several cabins available daily, book your experience today!
 						</div>
@@ -111,8 +111,8 @@
 				<!-- PHOTO CONTAINER 7 -->
 				<div class="photo-container">
 					<div class="photo">
-						<img src="./images/thumb/thumbnail_7.png" alt="Crystal Lake Corral">
-						<div class="photo-overlay">
+						<img src="./images/thumb/thumbnail_7.jpeg" class="hover-shadow" alt="Crystal Lake Corral">
+						<div class="photo-overlay" onclick="openModal(); currentSlide(7)">
 							<h3>Click to Enlarge</h3>
 							<p>We have several cabins available daily, book your experience today!
 						</div>
@@ -123,8 +123,8 @@
 				<!-- PHOTO CONTAINER 8 -->
 				<div class="photo-container">
 					<div class="photo">
-						<img src="./images/thumb/thumbnail_8.png" alt="Camp Crystal Lake Art">
-						<div class="photo-overlay">
+						<img src="./images/thumb/thumbnail_8.jpeg" class="hover-shadow" alt="Camp Crystal Lake Art">
+						<div class="photo-overlay" onclick="openModal(); currentSlide(8)">
 							<h3>Click to Enlarge</h3>
 							<p>We have several cabins available daily, book your experience today!
 						</div>
@@ -135,8 +135,8 @@
 				<!-- PHOTO CONTAINER 9 -->
 				<div class="photo-container">
 					<div class="photo">
-						<img src="./images/thumb/thumbnail_9.png" alt="Welcome to Camp Crystal Lake Art">
-						<div class="photo-overlay">
+						<img src="./images/thumb/thumbnail_9.png" class="hover-shadow" alt="Welcome to Camp Crystal Lake Art">
+						<div class="photo-overlay" onclick="openModal();currentSlide(9)">
 							<h3>Click to Enlarge</h3>
 							<p>We have several cabins available daily, book your experience today!
 						</div>
@@ -146,8 +146,105 @@
 
 			</div>
 		</div>
-	</section>
 	<!-- END GALLERY -->
+
+	<!-- BEGIN MODAL/LIGHTBOX -->
+<div id="lightModal" class="modal">
+	<span class="close cursor" onclick="closeModal()">&times;</span>
+	<div class="modal-content">
+  
+		<div class="mySlides">
+			<div class="numbertext">1 / 9</div>
+			<img src="./Images/Full Photo/image1.png" style="width:100%">
+	  	</div>
+  
+	  	<div class="mySlides">
+			<div class="numbertext">2 / 9</div>
+			<img src="./Images/Full Photo/image2.png" style="width:100%">
+	  	</div>
+  
+	  	<div class="mySlides">
+			<div class="numbertext">3 / 9</div>
+			<img src="./Images/Full Photo/image3.jpg" style="width:100%">
+	  	</div>
+  
+	  	<div class="mySlides">
+			<div class="numbertext">4 / 9</div>
+			<img src="./Images/Full Photo/image4.jpg" style="width:100%">
+	  	</div>
+
+	  	<div class="mySlides">
+			<div class="numbertext">5 / 9</div>
+			<img src="./Images/Full Photo/image5.jpg" style="width:100%">
+	  	</div>
+
+	  	<div class="mySlides">
+			<div class="numbertext">6 / 9</div>
+			<img src="./Images/Full Photo/image6.jpeg" style="width:100%">
+	  	</div>
+
+	  	<div class="mySlides">
+			<div class="numbertext">7 / 9</div>
+			<img src="./Images/Full Photo/image7.jpeg" style="width:100%">
+	  	</div>
+
+	  	<div class="mySlides">
+			<div class="numbertext">8 / 9</div>
+			<img src="./Images/Full Photo/image8.jpeg" style="width:100%">
+	  	</div>
+
+	  	<div class="mySlides">
+			<div class="numbertext">9 / 9</div>
+			<img src="./Images/Full Photo/image9.png" style="width:100%">
+	  	</div>
+
+		<!--PREVIOUS/NEXT CONTROLS-->
+	  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+		<!--CAPTION-->
+	<div class="caption-container">
+		<p id="caption"></p>
+	  </div>
+  
+	  <!-- THUMBNAIL CONTROLS -->
+	  <div class="photo">
+		<img class="thumb cursor" src="./Images/thumb/thumbnail_1.png" onclick="currentSlide(1)" style="width:100%" alt="Welcome to Camp Crystal Lake">
+	  </div>
+  
+	  <div class="photo">
+		<img class="thumb cursor" src="./Images/thumb/thumbnail_2.png" onclick="currentSlide(2)" style="width:100%" alt="Crystal Lake Cabins">
+	  </div>
+  
+	  <div class="photo">
+		<img class="thumb cursor" src="./Images/thumb/thumbnail_3.jpeg" onclick="currentSlide(3)" style="width:100%" alt="Crystal Lake with Canoe">
+	  </div>
+  
+	  <div class="photo">
+		<img class="thumb cursor" src="./Images/thumb/thumbnail_4.jpeg" onclick="currentSlide(4)" style="width:100%" alt="Crystal Lake View">
+	  </div>
+
+	  <div class="photo">
+		<img class="thumb cursor" src="./Images/thumb/thumbnail_5.jpeg" onclick="currentSlide(5)" style="width:100%" alt="Camp Tent with Bonfire">
+	  </div>
+
+	  <div class="photo">
+		<img class="thumb cursor" src="./Images/thumb/thumbnail_6.jpeg" onclick="currentSlide(6)" style="width:100%" alt="Crystal Lake Main Cabin">
+	  </div>
+
+	  <div class="photo">
+		<img class="thumb cursor" src="./Images/thumb/thumbnail_7.jpeg" onclick="currentSlide(7)" style="width:100%" alt="Crystal Lake Corral">
+	  </div>
+
+	  <div class="photo">
+		<img class="thumb cursor" src="./Images/thumb/thumbnail_8.jpeg" onclick="currentSlide(8)" style="width:100%" alt="Camp Crystal Lake Art">
+	  </div>
+	  <div class="photo">
+		<img class="thumb cursor" src="./Images/thumb/thumbnail_9.png" onclick="currentSlide(9)" style="width:100%" alt="Welcome to Camp Crystal Lake Art">
+	  </div>
+	</div>
+  </div>
+</section>
+  <!-- END MODAL/LIGHTBOX -->
 
 	<!-- RSVP -->
 	<section id="contact">
@@ -192,7 +289,6 @@
 		<a href="https://fridaythe13th.fandom.com/wiki/Camp_Crystal_Lake" target="new">Camp Crystal Lake</a> &nbsp;|&nbsp; &copy; 2016
 	</div>
 	<!-- END FOOTER -->
-
-
+	<script src="./JS/one_page_website.js" async></script>
 	</body>
 </html>
